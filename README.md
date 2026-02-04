@@ -17,21 +17,18 @@ My path from manual scripting to AI-augmented Cloud Engineering.
 ```mermaid
 timeline
     title Technical Evolution
-    2023 : Manual Coding
-         : HTML/CSS/JS Prototype
-         : Linux Mint Daily Driver
-    2024 : Infrastructure & Virtualization
-         : Built "ProDesk" Home Lab
-         : Proxmox & Docker Adoption
-         : Self-Hosted Gitea/Plex
-    2025 : AI-Assisted Engineering
-         : Scarlet Helix Project
-         : Cloudflare Pages Deployment
-         : Complex DNS Routing
-    2026 : Cloud & Automation (Current)
-         : Terraform / IaC
-         : CI/CD Pipelines
-         : DevSecOps Focus
+    Sept 2025 : Manual Coding
+              : HTML/CSS/JS Prototype
+              : Linux Mint Daily Driver
+    Jan 2026  : Infrastructure & Virtualization
+              : Built "ProDesk" Home Lab
+              : Proxmox & Docker Adoption
+    Feb 2026  : AI-Assisted Engineering
+              : Standardized on GitHub
+              : CI/CD Pipelines
+    Current   : Cloud Native Migration
+              : Scarlet Helix on Cloudflare
+              : Complex DNS Engineering
 ```
 
 ---
