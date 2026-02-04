@@ -8,9 +8,9 @@ I'm a regulatory compliance professional with 5+ years of experience in the gamb
 
 ## 🚀 Featured Projects
 
-- **[Compliance Automation Framework]** - Python-based workflow automation reducing manual review time by 30%
-- **[AML Transaction Monitor]** - Data-driven risk assessment tool with real-time flagging capabilities
-- **[Regulatory Reporting Dashboard]** - Automated compliance KPI tracking and visualization system
+- **[Compliance Automation Framework](https://github.com/davidcockson-compliance/scarlet-helix)** - UKGC license intelligence and monitoring dashboard
+- **[AML Transaction Monitor](https://github.com/davidcockson-compliance/saasx-soc2-certification)** - SOC 2 Type II certification project with automated evidence generation
+- **[Regulatory Reporting Dashboard](https://github.com/davidcockson-compliance/digital-transformation-roadmap)** - Digital transformation planning framework for compliance modernization
 
 *More projects coming soon as I continue building out my RegTech portfolio*
 
@@ -108,10 +108,12 @@ Every project evolves as I learn from both regulatory developments and emerging 
 
 ## 🛠 Technologies & Tools
 
-**Languages:** Python  
-**Data & Analytics:**  Excel   
-**Collaboration & Project Management:** Jira, Confluence, Git/GitHub  
-**Currently Exploring:** Ubuntu (Mint), Github, Python and AI as tools.
+**Languages:** Python, JavaScript, TypeScript, SQL, PowerShell, HTML/CSS
+**Frameworks & Libraries:** React, Node.js, Prisma, Vite
+**Data & Analytics:** Excel, Pandas, Matplotlib
+**DevOps & Tools:** Docker, Git/GitHub, GitHub Actions
+**Collaboration:** Jira, Confluence
+**Currently Exploring:** Ubuntu (Mint), AI tools, advanced Python automation
 
 ---
 
