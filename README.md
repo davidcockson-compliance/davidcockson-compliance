@@ -1,81 +1,73 @@
 # David Cockson
-**Compliance Manager | Transitioning to Cloud & Platform Engineering**
+**Compliance & RegTech Professional | Building Compliance Automation Solutions | Cloud Engineer in Training**
 
-Regulatory compliance professional with over 5 years of experience in the gambling industry, currently serving as a Compliance Manager at the Gambling Commission. I am now pivoting my focus toward **Cloud Engineering** and **Infrastructure**, leveraging a strong foundation in regulatory frameworks (UKGC, MGA, GDPR) to build secure, compliant technical systems.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
----
-
-## Technical Transformation
-My recent technical journey has utilized **AI-assisted development** as a practical accelerator to understand software architecture and application lifecycles. While I have built full-stack applications to learn the fundamentals, my professional objective is to manage the **infrastructure, deployment pipelines, and cloud environments** that host them.
-
-### Key Projects
-**Scarlet Helix (Cloud Deployment & DNS)**
-*   Deployed a React-based risk assessment tool to the edge using **Cloudflare Pages**.
-*   **Engineering Focus**: Solved complex DNS challenges for free-tier dynamic domains (`dpdns.org`) using CNAME configurations and edge routing.
-*   **Result**: High-availability deployment with verified SSL, bypassing standard platform limitations.
-
-**Home Lab Infrastructure (The "ProDesk" Build)**
-*   Architected a self-hosted virtualization stack on an HP ProDesk 600 G3.
-*   **Tech Stack**: Proxmox VE, Ubuntu Server, Docker, Portainer, Tailscale.
-*   **Engineering Focus**: Container orchestration, network security via mesh VPNs, and implementing data sovereignty.
-
-**Compliance Automation Frameworks**
-*   **Method**: Leveraged AI coding agents (Claude, Antigravity) to write Python scripts and React frontends.
-*   **Outcome**: Gained deep insight into code structure and API integration while focusing my personal effort on the *deployment* and *operational* aspects of the solutions.
+Regulatory compliance professional (UKGC, MGA, GDPR) pivoting to **Cloud Engineering** and **DevSecOps**. I combine 5+ years of regulatory experience with modern implementation skills to build "Compliance-as-Code" solutions.
 
 ---
 
-## Professional Experience
+## 🗺️ Developer Journey
+
+My path from manual scripting to AI-augmented Cloud Engineering.
+
+```mermaid
+timeline
+    title Technical Evolution
+    2023 : Manual Coding
+         : HTML/CSS/JS Prototype
+         : Linux Mint Daily Driver
+    2024 : Infrastructure & Virtualization
+         : Built "ProDesk" Home Lab
+         : Proxmox & Docker Adoption
+         : Self-Hosted Gitea/Plex
+    2025 : AI-Assisted Engineering
+         : Scarlet Helix Project
+         : Cloudflare Pages Deployment
+         : Complex DNS Routing
+    2026 : Cloud & Automation (Current)
+         : Terraform / IaC
+         : CI/CD Pipelines
+         : DevSecOps Focus
+```
+
+---
+
+## 🚀 Featured Projects
+
+### 🌩️ [Scarlet Helix](https://github.com/davidcockson-compliance/scarlet-helix)
+**Tech**: React, Cloudflare Pages, DNS engineering.
+*   Intelligence tool for tracking UK Gambling Commission licenses.
+*   Solved complex Edge routing challenges using `dpdns.org`.
+
+### 🏠 [Home Lab Infrastructure](https://github.com/davidcockson-compliance/homelab)
+**Tech**: Proxmox, Ubuntu, Docker, Tailscale.
+*   Enterprise-grade virtualization stack running on bare metal.
+*   Hosts internal tooling, media servers, and secure mesh networking.
+
+### 🏭 [Job Radar](https://github.com/davidcockson-compliance/job-radar-)
+**Tech**: TypeScript, Node.js, Prisma.
+*   Full-stack pipeline tracker with automated data scraping.
+*   Currently being refactored for **AWS Cloud Native** deployment.
+
+---
+
+## 💼 Professional Background
 
 **Gambling Commission** | *Compliance Manager* (2024–Present)
-*   Conducting operator assessments using analytics to support compliance standards.
 *   Evaluating technical compliance challenges within evolving regulatory environments.
 
 **William Hill (888 Holdings)** | *Regulatory Compliance Assurance Manager* (2023)
-*   Managed Compliance Assurance supported by global monitoring and testing teams.
-*   Implemented automation frameworks for RTS testing to improve coverage.
+*   Implemented automation frameworks for RTS testing.
 
 **Allwyn UK** | *Compliance Officer* (2022–2023)
 *   Translated regulatory requirements into technical specifications (BRDs).
-*   Contributed to the design of the Compliance Monitoring Program (CMP).
-
-**Betway Group** | *Regional Regulatory Compliance Manager* (2021–2022)
-*   Oversaw compliance risk management for multiple European markets.
-*   Optimized tracking workflows via Jira.
-
-**PokerStars** | *Marketing Compliance Analyst* (2020–2021)
-*   Provided guidance on marketing compliance regulations.
-
-**Genesis Global Limited** | *Compliance Officer* (2018–2020)
-*   Established compliance monitoring frameworks and streamlined regulatory reporting.
 
 ---
 
-## Technical Competencies
-
-**Cloud & Infrastructure (Primary Focus)**
-*   **Cloud Platforms**: Cloudflare (Pages, DNS, Edge).
-*   **Virtualization**: Proxmox VE, LXC Containers.
-*   **Containerization**: Docker, Docker Compose, Portainer.
-*   **Networking**: Tailscale (Mesh VPN), DNS Management, SSH.
-*   **OS**: Linux (Ubuntu Server, Linux Mint).
-
-**Development & Tools (Learned via AI-Assisted Workflows)**
-*   **Languages**: Python, SQL, JavaScript/React.
-*   **Workflow**: Git, GitHub, VS Code.
-*   **Project Management**: Jira, Confluence.
-
----
-
-## Current Learning Focus
-My development path is heavily focused on **Platform Engineering**:
-*   **Infrastructure**: Deepening knowledge of self-hosted services and high-availability architecture.
-*   **Cloud Native**: Experimenting with Cloudflare Workers and Serverless functions.
-*   **Automation**: Shifting from "writing code" to "automating deployments" and managing value streams.
-
----
-
-## Contact
-*   **Email**: DavidCockson@gmail.com
-*   **Location**: Manchester, UK
-*   **LinkedIn**: [https://www.linkedin.com/in/david-cockson/]
+## 📫 Connect
+*   [Email](mailto:DavidCockson@gmail.com)
+*   [LinkedIn](https://www.linkedin.com/in/david-cockson/)
