@@ -8,7 +8,7 @@
 
 I like figuring out how things work—and more importantly, why they don't. 
 
-With over 5 years in international regulatory compliance (UKGC, MGA, GDPR), I’ve spent my career navigating complex rules. Now, I’m spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
+With over 5 years in international regulatory compliance (Gambling, Marketing, GDPR), I’ve spent my career navigating complex rules. Now, I’m spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
 
 ---
 
