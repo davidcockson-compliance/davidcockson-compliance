@@ -1,142 +1,81 @@
-Hi, I'm David Cockson 👋
+# David Cockson
+**Compliance Manager | Transitioning to Cloud & Platform Engineering**
 
-**Compliance Manager | Building RegTech Solutions for Modern Regulatory Challenges**
-
-I'm a regulatory compliance professional with 5+ years of experience in the gambling industry, currently serving as a Compliance Manager at the Gambling Commission. I specialize in regulatory frameworks including UKGC, MGA, GDPR, and AML, with experience managing compliance across 22 regulated markets.
-
----
-
-## 🚀 Featured Projects
-
-- **[Compliance Automation Framework](https://github.com/davidcockson-compliance/scarlet-helix)** - UKGC license intelligence and monitoring dashboard
-- **[AML Transaction Monitor](https://github.com/davidcockson-compliance/saasx-soc2-certification)** - SOC 2 Type II certification project with automated evidence generation
-- **[Regulatory Reporting Dashboard](https://github.com/davidcockson-compliance/digital-transformation-roadmap)** - Digital transformation planning framework for compliance modernization
-
-*More projects coming soon as I continue building out my RegTech portfolio*
+Regulatory compliance professional with over 5 years of experience in the gambling industry, currently serving as a Compliance Manager at the Gambling Commission. I am now pivoting my focus toward **Cloud Engineering** and **Infrastructure**, leveraging a strong foundation in regulatory frameworks (UKGC, MGA, GDPR) to build secure, compliant technical systems.
 
 ---
 
-## Technical Compliance & Automation
+## Technical Transformation
+My recent technical journey has utilized **AI-assisted development** as a practical accelerator to understand software architecture and application lifecycles. While I have built full-stack applications to learn the fundamentals, my professional objective is to manage the **infrastructure, deployment pipelines, and cloud environments** that host them.
 
-Throughout my career, I've focused on leveraging technology to enhance compliance processes, reducing manual workload and increasing accuracy across multiple jurisdictions:
+### Key Projects
+**Scarlet Helix (Cloud Deployment & DNS)**
+*   Deployed a React-based risk assessment tool to the edge using **Cloudflare Pages**.
+*   **Engineering Focus**: Solved complex DNS challenges for free-tier dynamic domains (`dpdns.org`) using CNAME configurations and edge routing.
+*   **Result**: High-availability deployment with verified SSL, bypassing standard platform limitations.
 
-* **Compliance Monitoring Systems**: Designed and implemented risk-based monitoring frameworks using automation and data analysis, improving detection of compliance issues while reducing review time by up to 30%.
-* **Regulatory Reporting**: Developed automated reporting systems that streamlined internal and regulator submissions, cutting report preparation time by 40%.
-* **RTS Testing Frameworks**: Led automation-driven Remote Technical Standards testing initiatives that enhanced compliance assurance in technical environments.
-* **Data Analysis**: Managed international data monitoring teams that harness analytics and trends to pre-emptively identify compliance risks.
-* **System Integration**: Deep experience working with Jira, Confluence, Signavo, and proprietary platforms to integrate workflows and compliance controls.
+**Home Lab Infrastructure (The "ProDesk" Build)**
+*   Architected a self-hosted virtualization stack on an HP ProDesk 600 G3.
+*   **Tech Stack**: Proxmox VE, Ubuntu Server, Docker, Portainer, Tailscale.
+*   **Engineering Focus**: Container orchestration, network security via mesh VPNs, and implementing data sovereignty.
 
----
-
-## What I'm Learning & Building Now
-
-As part of my commitment to blending compliance expertise with technology, I'm actively developing RegTech solutions alongside expanding my technical skillset:
-
-* Exploring advanced Python libraries for data automation and visualization (e.g., Pandas, Matplotlib).
-* Learning modern SQL techniques for regulatory data warehousing and complex compliance queries.
-* Building internal web-based dashboards to provide real-time compliance monitoring insights.
-* Experimenting with automation tools to create robust risk assessment frameworks and streamline AML transaction monitoring.
-* Deepening understanding of regulatory data requirements to enhance automated reporting accuracy.
+**Compliance Automation Frameworks**
+*   **Method**: Leveraged AI coding agents (Claude, Antigravity) to write Python scripts and React frontends.
+*   **Outcome**: Gained deep insight into code structure and API integration while focusing my personal effort on the *deployment* and *operational* aspects of the solutions.
 
 ---
 
-## RegTech Projects
+## Professional Experience
 
-Projects I focus on combine deep regulatory knowledge with innovative technical approaches:
+**Gambling Commission** | *Compliance Manager* (2024–Present)
+*   Conducting operator assessments using analytics to support compliance standards.
+*   Evaluating technical compliance challenges within evolving regulatory environments.
 
-* **Compliance Automation Tools**: Reducing manual review through intelligent automation workflows that integrate data from diverse sources.
-* **Risk Assessment Frameworks**: Developing data-driven models to assess and track regulatory risk in real time.
-* **Regulatory Reporting Systems**: Creating automated, scheduled generation of compliance reports with KPI tracking.
-* **Monitoring Dashboards**: Providing stakeholders with intuitive visualization of compliance KPIs, trends, and alerts.
+**William Hill (888 Holdings)** | *Regulatory Compliance Assurance Manager* (2023)
+*   Managed Compliance Assurance supported by global monitoring and testing teams.
+*   Implemented automation frameworks for RTS testing to improve coverage.
 
-Every project evolves as I learn from both regulatory developments and emerging technologies, ensuring solutions stay relevant and effective.
+**Allwyn UK** | *Compliance Officer* (2022–2023)
+*   Translated regulatory requirements into technical specifications (BRDs).
+*   Contributed to the design of the Compliance Monitoring Program (CMP).
 
----
+**Betway Group** | *Regional Regulatory Compliance Manager* (2021–2022)
+*   Oversaw compliance risk management for multiple European markets.
+*   Optimized tracking workflows via Jira.
 
-## Professional Experience Highlights
+**PokerStars** | *Marketing Compliance Analyst* (2020–2021)
+*   Provided guidance on marketing compliance regulations.
 
-**Gambling Commission - Compliance Manager** (2024-Present)
-* Led operator assessments, incorporating advanced analytics to strengthen compliance outcomes.
-* Owned evaluations of complex technical compliance challenges in dynamic regulatory environments.
-* Supported Policy evaluations of the review of research projects.
-
-**William Hill (888 Holdings) - Regulatory Compliance Assurance Manager** (2023)
-* Managed Compliance Assurance team,which was supported by both a 5-person data monitoring team and a 19-person testing team across multiple jurisdictions globally.
-* Implemented RTS testing automation frameworks, improving test coverage and reducing manual effort.
-* Designed and delivered specialized compliance training programs focused on regulatory technology automation.
-
-**Allwyn UK - Compliance Officer** (2022-2023)
-* Authored Business Requirement Documents (BRDs) translating regulatory requirements into technical specifications.
-* Led the end-to-end design and build of a comprehensive Compliance Monitoring Program (CMP).
-* Developed control registers and risk assessment frameworks leveraging collaboration tools like Confluence and Jira.
-
-**Betway Group - Regional Regulatory Compliance Manager** (2021-2022)
-* Oversaw compliance risk management across MGA, Belgium, Germany, and Netherlands markets.
-* Led Jira implementation optimizing compliance task tracking and reporting workflows.
-* Designed and maintained risk registers enabling proactive compliance issue identification.
-
-**PokerStars - Marketing Compliance Analyst** (2020-2021)
-* Provided compliance guidance across 19+ regulated markets with a focus on marketing and promotions.
-* Created detailed risk and regulatory matrices to support decision-making and audits.
-* Developed a centralized Terms & Conditions repository linked with monitoring tools for compliance enforcement.
-
-**Genesis Global Limited - Compliance Officer** (2018-2020)
-* Built company-wide compliance monitoring frameworks supporting multiple markets.
-* Automated regulatory reporting processes, saving significant operational time annually.
-* Created comprehensive gap analysis and risk assessment tools used across departments.
+**Genesis Global Limited** | *Compliance Officer* (2018–2020)
+*   Established compliance monitoring frameworks and streamlined regulatory reporting.
 
 ---
 
-## Qualifications & Certifications
+## Technical Competencies
 
-* ICA International Advanced Certificate in Regulatory Compliance
-* ICA Specialist Certificate in Money Laundering Risk in Betting and Gaming
-* Award in iGaming (MQF Level 4) including iGaming Compliance module
-* Certified in GDPR, AML, Anti-Fraud, Payments
-* Google Fundamentals of Digital Marketing
+**Cloud & Infrastructure (Primary Focus)**
+*   **Cloud Platforms**: Cloudflare (Pages, DNS, Edge).
+*   **Virtualization**: Proxmox VE, LXC Containers.
+*   **Containerization**: Docker, Docker Compose, Portainer.
+*   **Networking**: Tailscale (Mesh VPN), DNS Management, SSH.
+*   **OS**: Linux (Ubuntu Server, Linux Mint).
 
----
-
-## Domain Expertise
-
-* **Regulatory Frameworks**: UKGC, MGA, SGA, DGOJ, multiple EU jurisdictions
-* **Compliance Areas**: AML, GDPR, Marketing Compliance, Technical Compliance, VIP/HVC schemes
-* **Industry Verticals**: Lottery, Poker, Sports Betting, Casino (online and land-based)
-* **Assurance & Testing**: Risk-based monitoring, investigation, regulatory reporting
+**Development & Tools (Learned via AI-Assisted Workflows)**
+*   **Languages**: Python, SQL, JavaScript/React.
+*   **Workflow**: Git, GitHub, VS Code.
+*   **Project Management**: Jira, Confluence.
 
 ---
 
-## 🛠 Technologies & Tools
-
-**Languages:** Python, JavaScript, TypeScript, SQL, PowerShell, HTML/CSS
-**Frameworks & Libraries:** React, Node.js, Prisma, Vite
-**Data & Analytics:** Excel, Pandas, Matplotlib
-**DevOps & Tools:** Docker, Git/GitHub, GitHub Actions
-**Collaboration:** Jira, Confluence
-**Currently Exploring:** Ubuntu (Mint), AI tools, advanced Python automation
+## Current Learning Focus
+My development path is heavily focused on **Platform Engineering**:
+*   **Infrastructure**: Deepening knowledge of self-hosted services and high-availability architecture.
+*   **Cloud Native**: Experimenting with Cloudflare Workers and Serverless functions.
+*   **Automation**: Shifting from "writing code" to "automating deployments" and managing value streams.
 
 ---
 
-## 📚 Current Reading List
-
-My current reading list is below. Please don't hesitate to suggest any additions to this list.
-
-* **The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win** by Gene Kim, Kevin Behr, and George Spafford  
-  *A compelling narrative on implementing effective IT operations and automation, invaluable for understanding how project management and systems thinking can support compliance functions.*
-
-* **Software Engineering at Google** by Titus Winters, Tom Manshreck, and Hyrum Wright  
-  *An insider's view on scalable software design practices, engineering principles, and sustainable code management applied at large scale.*
-
-* **Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations** by Nicole Forsgren, Jez Humble, and Gene Kim  
-  *Focusing on data-driven metrics and practices, this provides insight into how to build and lead high-performing technical teams and deliver software quickly and reliably—essential for iterative RegTech development.*
-
----
-
-## 🤝 Let's Connect
-
-Interested in RegTech, compliance automation, or collaboration? I'd love to hear from you:
-
-* 📧 DavidCockson@gmail.com
-* 💼 [LinkedIn](https://linkedin.com/in/david-cockson)
-* 📍 Manchester, UK
-
+## Contact
+*   **Email**: DavidCockson@gmail.com
+*   **Location**: Manchester, UK
+*   **LinkedIn**: [Profile Link]
