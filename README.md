@@ -78,4 +78,4 @@ My development path is heavily focused on **Platform Engineering**:
 ## Contact
 *   **Email**: DavidCockson@gmail.com
 *   **Location**: Manchester, UK
-*   **LinkedIn**: [Profile Link]
+*   **LinkedIn**: [https://www.linkedin.com/in/david-cockson/]
