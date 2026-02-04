@@ -220,8 +220,8 @@ Clone https://github.com/davidcockson-compliance/scarlet-helix and do the follow
 
 1. The app is live on GitHub Pages. Take note that the README should reference it.
 2. Add a "Live Demo" link at the top of the README pointing to the GitHub Pages URL.
-3. Add an "img/" directory with a placeholder note, or add a screenshot section to the README with a note like:
-   > ![Dashboard Screenshot](docs/screenshot.png)
+3. Add an "img/" directory and include a screenshot section in the README with a placeholder like:
+   > ![Dashboard Screenshot](img/screenshot.png)
    > *Screenshot coming soon — see the [live demo](https://davidcockson-compliance.github.io/scarlet-helix/) to explore the dashboard.*
 4. Commit with message: "docs: add live demo link and screenshot placeholder"
 5. Push to main.
