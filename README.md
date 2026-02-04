@@ -1,70 +1,31 @@
 # David Cockson
-**Compliance & RegTech Professional | Building Compliance Automation Solutions | Cloud Engineer in Training**
+**Compliance Specialist | Tinkerer | Bridging Regulatory Logic with Cloud Infrastructure**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
-Regulatory compliance professional (UKGC, MGA, GDPR) pivoting to **Cloud Engineering** and **DevSecOps**. I combine 5+ years of regulatory experience with modern implementation skills to build "Compliance-as-Code" solutions.
+I like figuring out how things work—and more importantly, why they don't. 
+
+With over 5 years in international regulatory compliance (UKGC, MGA, GDPR), I’ve spent my career navigating complex rules. Now, I’m spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
 
 ---
 
-## 🗺️ Developer Journey
-
-My path from manual scripting to AI-augmented Cloud Engineering.
+## 🗺️ Systems Exploration
+My journey from evaluating policy to building and breaking infrastructure.
 
 ```mermaid
 timeline
-    title Technical Evolution
-    Sept 2025 : Manual Coding
-              : HTML/CSS/JS Prototype
-              : Linux Mint Daily Driver
-    Jan 2026  : Infrastructure & Virtualization
-              : Built "ProDesk" Home Lab
-              : Proxmox & Docker Adoption
-    Feb 2026  : AI-Assisted Engineering
-              : Standardized on GitHub
-              : CI/CD Pipelines
-    Current   : Cloud Native Migration
-              : Scarlet Helix on Cloudflare
-              : Complex DNS Engineering
-```
-
----
-
-## 🚀 Featured Projects
-
-### 🌩️ [Scarlet Helix](https://github.com/davidcockson-compliance/scarlet-helix)
-**Tech**: React, Cloudflare Pages, DNS engineering.
-*   Intelligence tool for tracking UK Gambling Commission licenses.
-*   Solved complex Edge routing challenges using `dpdns.org`.
-
-### 🏠 [Home Lab Infrastructure](https://github.com/davidcockson-compliance/homelab)
-**Tech**: Proxmox, Ubuntu, Docker, Tailscale.
-*   Enterprise-grade virtualization stack running on bare metal.
-*   Hosts internal tooling, media servers, and secure mesh networking.
-
-### 🏭 [Job Radar](https://github.com/davidcockson-compliance/job-radar-)
-**Tech**: TypeScript, Node.js, Prisma.
-*   Full-stack pipeline tracker with automated data scraping.
-*   Currently being refactored for **AWS Cloud Native** deployment.
-
----
-
-## 💼 Professional Background
-
-**Gambling Commission** | *Compliance Manager* (2024–Present)
-*   Evaluating technical compliance challenges within evolving regulatory environments.
-
-**William Hill (888 Holdings)** | *Regulatory Compliance Assurance Manager* (2023)
-*   Implemented automation frameworks for RTS testing.
-
-**Allwyn UK** | *Compliance Officer* (2022–2023)
-*   Translated regulatory requirements into technical specifications (BRDs).
-
----
-
-## 📫 Connect
-*   [Email](mailto:DavidCockson@gmail.com)
-*   [LinkedIn](https://www.linkedin.com/in/david-cockson/)
+    title The Technical Evolution
+    2025 : Logic & Scripts
+         : Manual Compliance Audit Logic
+         : Python for Data Analysis
+         : Linux Mint Daily Driver
+    Jan 2026 : Building & Virtualization
+             : Built "ProDesk" Home Lab
+             : Proxmox & Docker Deployment
+    Current : Cloud & Resilience
+            : Scarlet Helix on Cloudflare
+            : Exploring DNS Engineering
+            : Deep dive into AWS & IaC
