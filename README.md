@@ -1,5 +1,6 @@
 # David Cockson
 **Compliance Specialist | Tinkerer | Bridging Regulatory Logic with Cloud Infrastructure**
+https://www.linkedin.com/in/david-cockson
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
@@ -8,7 +9,7 @@
 
 I like figuring out how things work—and more importantly, why they don't. 
 
-With over 5 years in international regulatory compliance (Gambling, Marketing, GDPR), I’ve spent my career navigating complex rules. Now, I’m spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
+With over 8 years in international regulatory compliance (Gambling, Marketing, GDPR), I’ve spent my career navigating complex rules. Now, I’m spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
 
 ---
 
