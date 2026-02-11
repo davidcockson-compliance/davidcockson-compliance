@@ -9,7 +9,16 @@ https://www.linkedin.com/in/david-cockson
 
 I like figuring out how things work—and more importantly, why they don't. 
 
-With over 8 years in international regulatory compliance (Gambling, Marketing, GDPR), I’ve spent my career navigating complex rules. Now, I’m spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
+With over 8 years in international regulatory compliance (Gambling, Marketing, GDPR), I've spent my career navigating complex rules. Now, I'm spending my time under the hood: exploring new and broken things in the cloud and building tools that turn "policy-on-paper" into resilient, automated code.
+
+---
+
+## Featured Projects
+
+### [homelab-monitoring](https://github.com/davidcockson-compliance/homelab-monitoring)
+A lightweight Prometheus + Grafana monitoring stack for a home server. Provides host-level visibility (CPU, RAM, Disk via node_exporter) and per-container metrics (via Telegraf and the Docker socket API), all orchestrated with Docker Compose.
+
+**Stack:** Prometheus · Grafana · Telegraf · node_exporter · Docker Compose
 
 ---
 
@@ -30,3 +39,4 @@ timeline
             : Scarlet Helix on Cloudflare
             : Exploring DNS Engineering
             : Deep dive into AWS & IaC
+            : Observability (Prometheus, Grafana, Telegraf)
