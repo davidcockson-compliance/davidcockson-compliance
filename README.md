@@ -4,14 +4,14 @@
 
 https://www.linkedin.com/in/david-cockson
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Claude%20Code](https://img.shields.io/badge/Claude%20Code-191919?style=flat)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
 8 years finding the gaps in complex regulatory systems. Now I build the things that close them.
 
-Currently: designing multi-agent AI architectures that produce governance documentation autonomously — because the frameworks don't exist yet and someone has to build the engine.
+Currently: designing multi-agent AI workflows that generate governance documentation, while building practical systems and deployment capability through homelab and cloud-based projects.
 
 *Tao of Pratchett. Map the gap. Architect the control.*
 
