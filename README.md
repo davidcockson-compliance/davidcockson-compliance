@@ -1,6 +1,6 @@
 # David Cockson
 
-**Compliance & AI Governance | Bridging Regulatory Logic with Cloud Infrastructure**
+**Chaos-tolerant systems architect. Making AI govern itself.**
 
 https://www.linkedin.com/in/david-cockson
 
@@ -9,9 +9,11 @@ https://www.linkedin.com/in/david-cockson
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
-I like figuring out how things work—and more importantly, why they don't.
+8 years finding the gaps in complex regulatory systems. Now I build the things that close them.
 
-With over 8 years in international regulatory compliance (Gambling, Marketing, GDPR), I've spent my career navigating complex rules. Now I'm spending my time under the hood: building tools that turn policy-on-paper into resilient, automated systems — and lately, designing multi-agent AI architectures that produce governance documentation autonomously.
+Currently: designing multi-agent AI architectures that produce governance documentation autonomously — because the frameworks don't exist yet and someone has to build the engine.
+
+*Tao of Pratchett. Map the gap. Architect the control.*
 
 ---
 
@@ -19,9 +21,9 @@ With over 8 years in international regulatory compliance (Gambling, Marketing, G
 
 ### [pickles-gmbh-ai-governance-framework](https://github.com/davidcockson-compliance/pickles-gmbh-ai-governance-framework)
 
-An open-source AI governance framework for German legal AI providers, covering EU AI Act, GDPR, BDSG, and BRAK professional standards. 22 documents across five stages plus a worked example.
+There weren't clear open-source examples of what EU AI Act compliance looks like in practice for a legal AI company. So I built an engine to make one.
 
-The more interesting part: the framework was produced by a multi-agent Claude Code system with defined agent roles — Orchestrator, Research Reader, Document Drafter, Assumptions Tracker, Run Summariser. Autonomous overnight runs. Human review layer. The documents are the output. The system design is the methodology.
+A multi-agent Claude Code system — Orchestrator, Research Reader, Document Drafter, Assumptions Tracker, Run Summariser — running autonomously overnight, producing audit-ready governance documentation with explicit assumption flagging throughout. The output is 22 documents across five stages plus a worked example. The methodology is the point.
 
 **Stack:** Claude Code · Multi-agent architecture · Markdown · MkDocs · GitHub Pages  
 **Licence:** CC BY 4.0
@@ -32,15 +34,13 @@ The more interesting part: the framework was produced by a multi-agent Claude Co
 
 ### [homelab-monitoring](https://github.com/davidcockson-compliance/homelab-monitoring)
 
-A lightweight Prometheus + Grafana monitoring stack for a home server. Provides host-level visibility (CPU, RAM, Disk via node_exporter) and per-container metrics (via Telegraf and the Docker socket API), all orchestrated with Docker Compose.
+Prometheus + Grafana monitoring stack for a home server. Host metrics via node_exporter, per-container visibility via Telegraf and the Docker socket API, orchestrated with Docker Compose. Air-gapped from the public internet — Tailscale only.
 
 **Stack:** Prometheus · Grafana · Telegraf · node_exporter · Docker Compose
 
 ---
 
-## 🗺️ Systems Exploration
-
-My journey from evaluating policy to building and breaking infrastructure.
+## 🗺️ How We Got Here
 ```mermaid
 timeline
     title The Technical Evolution
