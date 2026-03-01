@@ -31,7 +31,22 @@ A multi-agent Claude Code system — Orchestrator, Research Reader, Document Dra
 [Repository](https://github.com/davidcockson-compliance/pickles-gmbh-ai-governance-framework) · [Documentation site](https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/)
 
 ---
+ ### [sable-ai-governance-framework](https://github.com/davidcockson-compliance/sable-ai-governance-framework)
 
+  The same multi-agent engine, different jurisdiction and risk surface.
+
+  Sable AI Ltd is a fictional UK HR startup building Scout — an AI CV screening and shortlisting tool. The framework applies UK
+  GDPR, DPA 2018, the Data (Use and Access) Act 2025, and Equality Act 2010 to a bias-critical use case where automated processing
+  has direct consequences for candidate employment rights. 18 documents across five stages plus worked examples; the Phase 2
+  section covers Scout end-to-end.
+
+  **Stack:** Claude Code · Multi-agent architecture · Markdown · MkDocs · GitHub Pages
+  **Licence:** CC BY 4.0
+
+  [Repository](https://github.com/davidcockson-compliance/sable-ai-governance-framework) · [Documentation
+  site](https://davidcockson-compliance.github.io/sable-ai-governance-framework/)
+
+  ---
 ### [homelab-monitoring](https://github.com/davidcockson-compliance/homelab-monitoring)
 
 Prometheus + Grafana monitoring stack for a home server. Host metrics via node_exporter, per-container visibility via Telegraf and the Docker socket API, orchestrated with Docker Compose. Air-gapped from the public internet — Tailscale only.
@@ -44,10 +59,10 @@ Prometheus + Grafana monitoring stack for a home server. Host metrics via node_e
 ```mermaid
 timeline
     title The Technical Evolution
-    2025 : Logic & Scripts
-         : Manual Compliance Audit Logic
-         : Python for Data Analysis
-         : Linux Mint Daily Driver
+        2025 : Logic & Scripts
+             : Manual Compliance Audit Logic
+             : Python for Data Analysis
+             : Linux Mint Daily Driver
     Jan 2026 : Building & Virtualization
              : Built "ProDesk" Home Lab
              : Proxmox & Docker Deployment
@@ -55,9 +70,13 @@ timeline
              : Multi-agent Claude Code system
              : EU AI Act framework — 22 documents
              : MkDocs static site deployment
-    Current : Cloud & Resilience
-            : Scarlet Helix on Cloudflare
-            : Exploring DNS Engineering
-            : Deep dive into AWS & IaC
-            : Observability (Prometheus, Grafana, Telegraf)
+    Mar 2026 : UK AI Governance
+             : Sable AI — 18 documents
+             : UK GDPR, Equality Act 2010
+             : Bias-critical HR AI context
+     Current : Cloud & Resilience
+             : Scarlet Helix on Cloudflare
+             : Exploring DNS Engineering
+             : Deep dive into AWS & IaC
+             : Observability (Prometheus, Grafana, Telegraf)
 ```
