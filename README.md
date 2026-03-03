@@ -2,6 +2,10 @@
 
 **Systems thinker. Finding constraints. Designing control.**
 
+```
+regulation → system → constraint → control → automation
+```
+
 https://www.linkedin.com/in/david-cockson
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
@@ -10,7 +14,6 @@ https://www.linkedin.com/in/david-cockson
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
-
 ---
 
 ## Background
