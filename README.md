@@ -187,3 +187,5 @@ The goal is **stable systems that continue working when nobody is watching**.
 
 *Tao of Pratchett.*
 
+**Map the gap. Architect the control.**
+
