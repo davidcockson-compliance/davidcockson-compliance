@@ -1,20 +1,107 @@
 # David Cockson
 
-**Chaos-tolerant systems architect. Making AI govern itself.**
+**Systems thinker. Finding constraints. Designing control.**
 
 https://www.linkedin.com/in/david-cockson
 
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Claude%20Code](https://img.shields.io/badge/Claude%20Code-191919?style=flat)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 
-8 years finding the gaps in complex regulatory systems. Now I build the things that close them.
+---
 
-Currently: designing multi-agent AI workflows that generate governance documentation, while building practical systems and deployment capability through homelab and cloud-based projects.
+## Background
 
-*Tao of Pratchett. Map the gap. Architect the control.*
+For the last **8 years I’ve worked inside complex regulatory systems**, primarily in the gambling industry.
 
+My job was rarely just “compliance”.
+
+It involved:
+
+- identifying structural weaknesses in regulatory frameworks  
+- investigating systemic failures across organisations and regulators  
+- designing operational controls that keep large systems stable  
+
+In practice this meant constantly asking:
+
+> **Where is the constraint?  
+> What breaks first?  
+> What control would stabilise this system?**
+
+That way of thinking translates surprisingly well to **software infrastructure**.
+
+---
+
+## Current Focus
+
+I now apply the same systems thinking to **software, infrastructure, and automation**.
+
+Areas I’m actively building in:
+
+- cloud infrastructure and containerisation  
+- monitoring and observability systems  
+- automation and operational tooling  
+- AI governance frameworks and agent workflows  
+
+Most projects are built through a mix of **homelab experimentation and cloud deployments**, focusing on practical systems rather than theory.
+
+---
+
+## Selected Projects
+
+**Scarlet Helix**  
+Monitoring and analysis tool for the UK Gambling Commission licence register.
+
+**AI Governance Frameworks**  
+Explorations into how multi-agent AI systems can generate governance and compliance artefacts.
+
+**Homelab Monitoring Stack**  
+Self-hosted infrastructure used to experiment with containerisation, observability, and deployment pipelines.
+
+---
+
+## How I Approach Systems
+
+```mermaid
+flowchart LR
+
+A[Observe System] --> B[Find Constraint]
+B --> C[Map the Gap]
+C --> D[Design Control]
+D --> E[Automate Process]
+E --> F[Monitor Outcome]
+F --> A
+```
+
+The same loop appears everywhere:
+
+- regulatory frameworks  
+- operational processes  
+- infrastructure platforms  
+- AI systems  
+
+Understand the system.  
+Remove the constraint.  
+Let automation keep it stable.
+
+---
+
+## Current Learning
+
+- Linux systems and tooling  
+- Docker and container infrastructure  
+- cloud deployment patterns  
+- observability and monitoring  
+- AI governance and agent workflows  
+
+---
+
+*Tao of Pratchett.*
+
+**Map the gap. Architect the control.**
 ---
 
 ## Featured Projects
