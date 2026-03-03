@@ -2,9 +2,7 @@
 
 **Systems thinker. Finding constraints. Designing control.**
 
-```
-regulation → system → constraint → control → automation
-```
+`regulation → system → constraint → control → automation`
 
 https://www.linkedin.com/in/david-cockson
 
@@ -48,7 +46,7 @@ Areas I’m actively building in:
 - automation and operational tooling  
 - AI governance frameworks and multi-agent workflows  
 
-Most projects are built through a combination of **homelab experimentation and cloud deployments**.
+Most projects are built through **homelab experimentation and cloud deployments**.
 
 ---
 
@@ -58,7 +56,7 @@ Most projects are built through a combination of **homelab experimentation and c
 Monitoring and analysis tool for the UK Gambling Commission licence register.
 
 **AI Governance Frameworks**  
-Explorations into how AI systems can generate and maintain governance documentation.
+Exploring how AI systems can generate and maintain governance documentation.
 
 **Homelab Monitoring Stack**  
 Self-hosted infrastructure used to experiment with containers, monitoring, and deployment pipelines.
@@ -70,17 +68,12 @@ Self-hosted infrastructure used to experiment with containers, monitoring, and d
 ```mermaid
 flowchart LR
 
-A[Observe System]:::start --> B[Identify Constraint]
+A[Observe System] --> B[Identify Constraint]
 B --> C[Map the Gap]
 C --> D[Design Control]
 D --> E[Automate Solution]
 E --> F[Monitor System]
 F --> A
-
-classDef start fill:#1f2937,stroke:#38bdf8,color:#ffffff;
-classDef process fill:#111827,stroke:#6ee7b7,color:#ffffff;
-
-class B,C,D,E,F process;
 ```
 
 This loop applies whether the system is:
@@ -109,21 +102,6 @@ Let automation keep it stable.
 *Tao of Pratchett.*
 
 **Map the gap. Architect the control.**
-[Repository](https://github.com/davidcockson-compliance/pickles-gmbh-ai-governance-framework) · [Documentation site](https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/)
-
----
- ### [sable-ai-governance-framework](https://github.com/davidcockson-compliance/sable-ai-governance-framework)
-
-  The same multi-agent engine, different jurisdiction and risk surface.
-
-  Sable AI Ltd is a fictional UK HR startup building Scout — an AI CV screening and shortlisting tool. The framework applies UK
-  GDPR, DPA 2018, the Data (Use and Access) Act 2025, and Equality Act 2010 to a bias-critical use case where automated processing
-  has direct consequences for candidate employment rights. 18 documents across five stages plus worked examples; the Phase 2
-  section covers Scout end-to-end.
-
-  **Stack:** Claude Code · Multi-agent architecture · Markdown · MkDocs · GitHub Pages
-  **Licence:** CC BY 4.0
-
   [Repository](https://github.com/davidcockson-compliance/sable-ai-governance-framework) · [Documentation
   site](https://davidcockson-compliance.github.io/sable-ai-governance-framework/)
 
