@@ -10,69 +10,134 @@ https://www.linkedin.com/in/david-cockson
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 
 ---
 
-## Background
+# Background
 
 For the last **8 years I’ve worked inside complex regulatory systems**, primarily in the gambling industry.
 
-My work involved:
+My job was rarely just policy or compliance.
+
+It involved:
 
 - identifying structural weaknesses in regulatory frameworks  
-- investigating systemic failures across organisations and regulators  
+- investigating systemic failures across organisations and suppliers  
 - designing operational controls to stabilise complex systems  
 
 In practice this meant constantly asking:
 
-> **Where is the constraint?  
-> What breaks first?  
-> What control stabilises the system?**
+> **Where is the constraint?**  
+> **What breaks first?**  
+> **What control stabilises the system?**
 
-That mindset translates naturally into **software infrastructure and automation**.
-
----
-
-## Current Focus
-
-I’m now applying the same systems thinking to **software, infrastructure, and AI workflows**.
-
-Areas I’m actively building in:
-
-- cloud infrastructure and containerisation  
-- monitoring and observability systems  
-- automation and operational tooling  
-- AI governance frameworks and multi-agent workflows  
-
-Most projects are built through **homelab experimentation and cloud deployments**.
+That mindset translates naturally into **software systems, infrastructure and automation**.
 
 ---
 
-## Selected Projects
+# Selected Projects
 
-**Scarlet Helix**  
-Monitoring and analysis tool for the UK Gambling Commission licence register.
+## AI Governance Frameworks
 
-**AI Governance Frameworks**  
-Exploring how AI systems can generate and maintain governance documentation.
+Live projects exploring structured governance approaches for AI systems.
 
-**Homelab Monitoring Stack**  
-Self-hosted infrastructure used to experiment with containers, monitoring, and deployment pipelines.
+- **Sable AI Governance Framework**  
+  https://davidcockson-compliance.github.io/sable-ai-governance-framework/
+
+- **Pickles GmbH AI Governance Framework**  
+  https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/
+
+These explore how governance frameworks can be generated and maintained through **structured system design and AI-assisted workflows**.
 
 ---
 
-## How I Approach Systems
+## Regulatory & Analysis Tools
+
+### Scarlet Helix
+
+Monitoring and analysis tool for the **UK Gambling Commission licence register**.
+
+Key capabilities:
+
+- licence register search and analysis  
+- domain and infrastructure discovery  
+- corporate group identification  
+- compliance monitoring views  
+
+Repository:  
+https://github.com/davidcockson-compliance/scarlet-helix
+
+Live instance:  
+https://froghunter.dpdns.org/
+
+---
+
+### LCCP Regulation Filter
+
+Structured dataset and filtering tool for the **UK Gambling Commission regulatory framework**.
+
+Purpose:
+
+- convert regulatory text into structured data
+- allow filtering and gap analysis
+- support compliance review workflows
+
+---
+
+## Infrastructure & Homelab
+
+Current experimentation environment used to practise:
+
+- containerisation (Docker)
+- cloud infrastructure
+- deployment workflows
+- monitoring and observability
+
+Projects and experiments are built with the goal of creating **repeatable operational systems**.
+
+---
+
+# Journey
+
+My background is **systems analysis inside regulatory environments**.
+
+I now apply the same mindset to **software systems and infrastructure**.
+
+Progression of projects:
+
+```
+Regulatory systems analysis
+        ↓
+Structured regulation datasets
+        ↓
+Compliance tooling (React + data models)
+        ↓
+Automation and deployment (Docker / Cloudflare)
+        ↓
+Cloud infrastructure experimentation
+        ↓
+Monitoring and observability systems
+```
+
+Each project builds on the previous one.
+
+The focus is moving from:
+
+**analysis → tooling → infrastructure → automation**
+
+---
+
+# How I Approach Systems
 
 ```mermaid
 flowchart LR
-
-A[Observe System] --> B[Identify Constraint]
-B --> C[Map the Gap]
-C --> D[Design Control]
-D --> E[Automate Solution]
-E --> F[Monitor System]
+A[Observe system] --> B[Find constraint]
+B --> C[Map the gap]
+C --> D[Design control]
+D --> E[Automate solution]
+E --> F[Monitor outcome]
 F --> A
 ```
 
@@ -89,53 +154,20 @@ Let automation keep it stable.
 
 ---
 
-## Current Learning
+# Current Focus
 
-- Linux systems and tooling  
-- Docker and container infrastructure  
-- cloud deployment patterns  
-- observability and monitoring  
-- AI governance and agent workflows  
+I am currently building skills and projects around:
+
+- Linux systems and tooling
+- Docker and container infrastructure
+- cloud infrastructure and deployment
+- monitoring and observability
+- AI governance and agent workflows
+
+Most learning happens through **practical builds and homelab experimentation**.
 
 ---
 
 *Tao of Pratchett.*
 
 **Map the gap. Architect the control.**
-  [Repository](https://github.com/davidcockson-compliance/sable-ai-governance-framework) · [Documentation
-  site](https://davidcockson-compliance.github.io/sable-ai-governance-framework/)
-
-  ---
-### [homelab-monitoring](https://github.com/davidcockson-compliance/homelab-monitoring)
-
-Prometheus + Grafana monitoring stack for a home server. Host metrics via node_exporter, per-container visibility via Telegraf and the Docker socket API, orchestrated with Docker Compose. Air-gapped from the public internet — Tailscale only.
-
-**Stack:** Prometheus · Grafana · Telegraf · node_exporter · Docker Compose
-
----
-
-## 🗺️ How We Got Here
-```mermaid
-timeline
-    title The Technical Evolution
-        2025 : Logic & Scripts
-             : Manual Compliance Audit Logic
-             : Python for Data Analysis
-             : Linux Mint Daily Driver
-    Jan 2026 : Building & Virtualization
-             : Built "ProDesk" Home Lab
-             : Proxmox & Docker Deployment
-    Feb 2026 : AI Governance & Agents
-             : Multi-agent Claude Code system
-             : EU AI Act framework — 22 documents
-             : MkDocs static site deployment
-    Mar 2026 : UK AI Governance
-             : Sable AI — 18 documents
-             : UK GDPR, Equality Act 2010
-             : Bias-critical HR AI context
-     Current : Cloud & Resilience
-             : Scarlet Helix on Cloudflare
-             : Exploring DNS Engineering
-             : Deep dive into AWS & IaC
-             : Observability (Prometheus, Grafana, Telegraf)
-```
