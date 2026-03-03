@@ -1,6 +1,6 @@
 # David Cockson
 
-**Systems thinker. Finding constraints. Designing control.**
+**Systems thinker focused on constraints, control, and automation.**
 
 `regulation → system → constraint → control → automation`
 
@@ -19,7 +19,7 @@ https://www.linkedin.com/in/david-cockson
 
 For the last **8 years I’ve worked inside complex regulatory systems**, primarily in the gambling industry.
 
-My job was rarely just policy or compliance.
+The work was rarely just policy or compliance.
 
 It involved:
 
@@ -33,7 +33,7 @@ In practice this meant constantly asking:
 > **What breaks first?**  
 > **What control stabilises the system?**
 
-That mindset translates naturally into **software systems, infrastructure and automation**.
+That mindset translates naturally into **software systems, infrastructure, and automation**.
 
 ---
 
@@ -41,15 +41,15 @@ That mindset translates naturally into **software systems, infrastructure and au
 
 ## AI Governance Frameworks
 
-Live projects exploring structured governance approaches for AI systems.
+Exploring structured governance models for AI systems.
 
-- **Sable AI Governance Framework**  
-  https://davidcockson-compliance.github.io/sable-ai-governance-framework/
+**Sable AI Governance Framework**  
+https://davidcockson-compliance.github.io/sable-ai-governance-framework/
 
-- **Pickles GmbH AI Governance Framework**  
-  https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/
+**Pickles GmbH AI Governance Framework**  
+https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/
 
-These explore how governance frameworks can be generated and maintained through **structured system design and AI-assisted workflows**.
+These projects explore how governance frameworks can be **structured, generated and maintained using AI-assisted workflows**.
 
 ---
 
@@ -66,10 +66,10 @@ Key capabilities:
 - corporate group identification  
 - compliance monitoring views  
 
-Repository:  
+Repository  
 https://github.com/davidcockson-compliance/scarlet-helix
 
-Live instance:  
+Live instance  
 https://froghunter.dpdns.org/
 
 ---
@@ -80,9 +80,9 @@ Structured dataset and filtering tool for the **UK Gambling Commission regulator
 
 Purpose:
 
-- convert regulatory text into structured data
-- allow filtering and gap analysis
-- support compliance review workflows
+- convert regulatory text into structured datasets
+- enable filtering and analysis
+- support compliance gap analysis workflows
 
 ---
 
@@ -90,6 +90,104 @@ Purpose:
 
 Current experimentation environment used to practise:
 
+- containerisation (Docker)
+- cloud infrastructure
+- deployment workflows
+- monitoring and observability
+
+Projects are built with the goal of creating **repeatable operational systems rather than one-off builds**.
+
+---
+
+# Journey
+
+My background is **systems analysis inside regulatory environments**.
+
+I now apply the same mindset to **software infrastructure and operational systems**.
+
+Progression of projects:
+
+```
+Regulatory systems analysis
+        ↓
+Structured regulation datasets
+        ↓
+Compliance tooling (React + data models)
+        ↓
+Automation and deployment (Docker / Cloudflare)
+        ↓
+Cloud infrastructure experimentation
+        ↓
+Monitoring and observability systems
+```
+
+Each step builds on the previous one.
+
+The direction is moving from:
+
+**analysis → tooling → infrastructure → automation**
+
+---
+
+# How I Approach Systems
+
+```mermaid
+flowchart LR
+A[Observe system] --> B[Find constraint]
+B --> C[Map the gap]
+C --> D[Design control]
+D --> E[Automate solution]
+E --> F[Monitor outcome]
+F --> A
+```
+
+This loop applies whether the system is:
+
+- regulatory frameworks  
+- operational processes  
+- infrastructure platforms  
+- AI workflows  
+
+Understand the system.  
+Remove the constraint.  
+Let automation keep it stable.
+
+---
+
+# Current Focus
+
+I’m currently building practical experience in:
+
+- Linux systems and tooling  
+- Docker and container infrastructure  
+- cloud deployment patterns  
+- monitoring and observability  
+- AI governance and multi-agent workflows  
+
+Most learning happens through **hands-on builds and homelab experimentation**.
+
+---
+
+# Engineering Principles
+
+Systems usually fail at the constraint.
+
+When approaching a new system I typically start with:
+
+- What is the real constraint?  
+- What fails first under pressure?  
+- What control stabilises the system?  
+- What can be automated once the system is stable?  
+
+The goal is not complexity.
+
+The goal is **stable systems that continue working when nobody is watching**.
+
+---
+
+*Tao of Pratchett.*
+
+**Map the gap. Architect the control.**
 - containerisation (Docker)
 - cloud infrastructure
 - deployment workflows
