@@ -14,42 +14,41 @@ https://www.linkedin.com/in/david-cockson
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
+
 ---
 
 ## Background
 
 For the last **8 years I’ve worked inside complex regulatory systems**, primarily in the gambling industry.
 
-My job was rarely just “compliance”.
-
-It involved:
+My work involved:
 
 - identifying structural weaknesses in regulatory frameworks  
 - investigating systemic failures across organisations and regulators  
-- designing operational controls that keep large systems stable  
+- designing operational controls to stabilise complex systems  
 
 In practice this meant constantly asking:
 
 > **Where is the constraint?  
 > What breaks first?  
-> What control would stabilise this system?**
+> What control stabilises the system?**
 
-That way of thinking translates surprisingly well to **software infrastructure**.
+That mindset translates naturally into **software infrastructure and automation**.
 
 ---
 
 ## Current Focus
 
-I now apply the same systems thinking to **software, infrastructure, and automation**.
+I’m now applying the same systems thinking to **software, infrastructure, and AI workflows**.
 
 Areas I’m actively building in:
 
 - cloud infrastructure and containerisation  
 - monitoring and observability systems  
 - automation and operational tooling  
-- AI governance frameworks and agent workflows  
+- AI governance frameworks and multi-agent workflows  
 
-Most projects are built through a mix of **homelab experimentation and cloud deployments**, focusing on practical systems rather than theory.
+Most projects are built through a combination of **homelab experimentation and cloud deployments**.
 
 ---
 
@@ -59,10 +58,10 @@ Most projects are built through a mix of **homelab experimentation and cloud dep
 Monitoring and analysis tool for the UK Gambling Commission licence register.
 
 **AI Governance Frameworks**  
-Explorations into how multi-agent AI systems can generate governance and compliance artefacts.
+Explorations into how AI systems can generate and maintain governance documentation.
 
 **Homelab Monitoring Stack**  
-Self-hosted infrastructure used to experiment with containerisation, observability, and deployment pipelines.
+Self-hosted infrastructure used to experiment with containers, monitoring, and deployment pipelines.
 
 ---
 
@@ -71,20 +70,25 @@ Self-hosted infrastructure used to experiment with containerisation, observabili
 ```mermaid
 flowchart LR
 
-A[Observe System] --> B[Find Constraint]
+A[Observe System]:::start --> B[Identify Constraint]
 B --> C[Map the Gap]
 C --> D[Design Control]
-D --> E[Automate Process]
-E --> F[Monitor Outcome]
+D --> E[Automate Solution]
+E --> F[Monitor System]
 F --> A
+
+classDef start fill:#1f2937,stroke:#38bdf8,color:#ffffff;
+classDef process fill:#111827,stroke:#6ee7b7,color:#ffffff;
+
+class B,C,D,E,F process;
 ```
 
-The same loop appears everywhere:
+This loop applies whether the system is:
 
 - regulatory frameworks  
 - operational processes  
 - infrastructure platforms  
-- AI systems  
+- AI workflows  
 
 Understand the system.  
 Remove the constraint.  
@@ -105,19 +109,6 @@ Let automation keep it stable.
 *Tao of Pratchett.*
 
 **Map the gap. Architect the control.**
----
-
-## Featured Projects
-
-### [pickles-gmbh-ai-governance-framework](https://github.com/davidcockson-compliance/pickles-gmbh-ai-governance-framework)
-
-There weren't clear open-source examples of what EU AI Act compliance looks like in practice for a legal AI company. So I built an engine to make one.
-
-A multi-agent Claude Code system — Orchestrator, Research Reader, Document Drafter, Assumptions Tracker, Run Summariser — running autonomously overnight, producing audit-ready governance documentation with explicit assumption flagging throughout. The output is 22 documents across five stages plus a worked example. The methodology is the point.
-
-**Stack:** Claude Code · Multi-agent architecture · Markdown · MkDocs · GitHub Pages  
-**Licence:** CC BY 4.0
-
 [Repository](https://github.com/davidcockson-compliance/pickles-gmbh-ai-governance-framework) · [Documentation site](https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/)
 
 ---
