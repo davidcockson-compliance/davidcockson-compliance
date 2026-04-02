@@ -72,7 +72,7 @@ Repository
 https://github.com/davidcockson-compliance/scarlet-helix
 
 Live instance  
-https://froghunter.dpdns.org/
+https://scarlet-helix.davidcockson.com
 
 ---
 
@@ -86,6 +86,8 @@ Purpose:
 - enable filtering and analysis
 - support compliance gap analysis workflows
 
+Live instance  
+https://lccp-filter.davidcockson.com
 ---
 
 ## Infrastructure & Homelab
