@@ -1,138 +1,147 @@
 # David Cockson
 
-**Systems thinker focused on constraints, control, and automation.**
+**Infrastructure · Observability · AI Workflows**
 
 `regulation → system → constraint → control → automation`
 
-https://www.linkedin.com/in/david-cockson
+I build self-hosted infrastructure, monitoring stacks, and AI tooling
+from my homelab. Most of what I ship is open source.
+
+📍 Macclesfield, UK  
+🔗 [davidcockson.com](https://davidcockson.com) · [blog](https://blog.davidcockson.com) · [linkedin](https://www.linkedin.com/in/david-cockson) · hello@davidcockson.com
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=flat&logo=portainer&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
-![Tempo](https://img.shields.io/badge/Tempo-F46800?style=flat&logo=grafana&logoColor=white)
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 
 ---
 
-# Background
+## Current Focus
 
-For the last **8 years I’ve worked inside complex regulatory systems**, primarily in the gambling industry.
-
-The work was rarely just policy or compliance.
-
-It involved:
-
-- identifying structural weaknesses in regulatory frameworks  
-- investigating systemic failures across organisations and suppliers  
-- designing operational controls to stabilise complex systems  
-
-In practice this meant constantly asking:
-
-> **Where is the constraint?**  
-> **What breaks first?**  
-> **What control stabilises the system?**
-
-That mindset translates naturally into **software systems, infrastructure, and automation**.
+- self-hosted infrastructure on Proxmox + Docker
+- observability (Prometheus, Grafana, Tempo, OpenTelemetry)
+- infrastructure-as-code (Terraform, CI/CD pipelines)
+- distributed AI systems (LLM routing, MCP, agent workflows)
 
 ---
 
-# Selected Projects
-
-## AI Governance Frameworks
-
-Exploring structured governance models for AI systems.
-
-**Sable AI Governance Framework**  
-https://davidcockson-compliance.github.io/sable-ai-governance-framework/
-
-**Pickles GmbH AI Governance Framework**  
-https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/
-
-These projects explore how governance frameworks can be **structured, generated and maintained using AI-assisted workflows**.
-
----
-
-## AI Infrastructure
+## Selected Projects
 
 ### vault-runner
 
-Self-hosted LLM job runner that turns an **Obsidian vault into a distributed AI workbench**.
+Self-hosted LLM job runner that turns an Obsidian vault into a distributed AI workbench.
 
-Key capabilities:
-
-- file-based job queue driven from notes (`_queue → _active → _completed`)
+- file-based job queue (`_queue → _active → _completed`) driven from markdown
 - multi-machine model routing across a VPS and home server
-- semantic memory via MemPalace MCP — past outputs retrievable with one YAML flag
+- semantic memory via MemPalace MCP — past outputs retrieved with one YAML flag
 - OpenTelemetry traces to Tempo/Grafana, Discord alerts on failure
-- FastAPI + HTMX web UI with SSE streaming output
+- FastAPI + HTMX dashboard with live SSE output streaming
+- 76 tests · GitLab CI · auto-deploy on merge
 
-Repository  
-https://github.com/davidcockson-compliance/vault-runner
-
----
-
-## Regulatory & Analysis Tools
-
-### Scarlet Helix
-
-Monitoring and analysis tool for the **UK Gambling Commission licence register**.
-
-Key capabilities:
-
-- licence register search and analysis  
-- domain and infrastructure discovery  
-- corporate group identification  
-- compliance monitoring views  
-
-Repository  
-https://github.com/davidcockson-compliance/scarlet-helix
-
-Live instance  
-https://scarlet-helix.davidcockson.com
+→ [davidcockson-compliance/vault-runner](https://github.com/davidcockson-compliance/vault-runner)
 
 ---
 
-### LCCP Regulation Filter
+### scarlet-helix
 
-Structured dataset and filtering tool for the **UK Gambling Commission regulatory framework**.
+Monitoring tool for the UK Gambling Commission licence register — domain
+discovery, corporate group identification, compliance views.
 
-Purpose:
-
-- convert regulatory text into structured datasets
-- enable filtering and analysis
-- support compliance gap analysis workflows
-
-Live instance  
-https://lccp-filter.davidcockson.com
----
-
-## Infrastructure & Homelab
-
-Current experimentation environment used to practise:
-
-- containerisation (Docker)
-- cloud infrastructure
-- deployment workflows
-- monitoring and observability
-
-Projects are built with the goal of creating **repeatable operational systems rather than one-off builds**.
+→ [repo](https://github.com/davidcockson-compliance/scarlet-helix) · [live](https://scarlet-helix.davidcockson.com)
 
 ---
 
-# Journey
+### lccp-regulation-filter
 
-My background is **systems analysis inside regulatory environments**.
+Converts the UK Gambling Commission's LCCP regulations into a structured
+dataset with filtering and gap-analysis tooling.
 
-I now apply the same mindset to **software infrastructure and operational systems**.
+→ [repo](https://github.com/davidcockson-compliance/lccp-regulation-filter) · [live](https://lccp-filter.davidcockson.com)
 
-Progression of projects:
+---
+
+### homelab-monitoring
+
+Prometheus + Grafana stack for a home server. Host metrics and
+per-container visibility via Docker exporters.
+
+→ [repo](https://github.com/davidcockson-compliance/homelab-monitoring)
+
+---
+
+### infra-practice
+
+Terraform and Python automation practice — IaC patterns, CI/CD pipelines,
+repeatable cloud deployments.
+
+→ [repo](https://github.com/davidcockson-compliance/infra-practice)
+
+---
+
+### AI Governance Frameworks
+
+Structured governance models for AI systems, generated and maintained with
+AI-assisted workflows.
+
+- [Sable AI Governance Framework](https://davidcockson-compliance.github.io/sable-ai-governance-framework/)
+- [Pickles GmbH AI Governance Framework](https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/)
+
+---
+
+## Recent writing
+
+- [Did the Supply Chain Attack Compromise Me? A Morning Panic Check](https://blog.davidcockson.com/posts/supply-chain-attack-check/) — 31 Mar 2026
+- [LCCP Filter — Self-Made Tools](https://blog.davidcockson.com/posts/lccp-filter-self-made-tools/) — 26 Mar 2026
+- [Monitoring & Observability Journey](https://blog.davidcockson.com/posts/monitoring-observability-journey/) — 25 Mar 2026
+
+[More at blog.davidcockson.com →](https://blog.davidcockson.com)
+
+---
+
+## How I Approach Systems
+
+```mermaid
+flowchart LR
+A[Observe system] --> B[Find constraint]
+B --> C[Map the gap]
+C --> D[Design control]
+D --> E[Automate solution]
+E --> F[Monitor outcome]
+F --> A
+```
+
+The loop applies whether the system is regulatory, operational, infrastructural,
+or an AI workflow. Systems fail at the constraint. Find it, control it,
+automate around it.
+
+---
+
+## Background
+
+Eight years inside complex regulatory systems, mostly in the UK gambling
+industry. The work wasn't policy — it was finding structural weaknesses,
+investigating systemic failures, and designing operational controls to
+stabilise things.
+
+The questions were always the same:
+
+> Where is the constraint?  
+> What breaks first?  
+> What control stabilises the system?
+
+Those questions work just as well on infrastructure, pipelines, and
+distributed systems as they did on compliance frameworks.
+
+---
+
+## Journey
 
 ```
 Regulatory systems analysis
@@ -150,70 +159,16 @@ Monitoring and observability systems
 AI infrastructure and agent workflows
 ```
 
-Each step builds on the previous one.
-
-The direction is moving from:
-
-**analysis → tooling → infrastructure → automation**
+Each step builds on the previous one. Direction of travel:
+**analysis → tooling → infrastructure → automation.**
 
 ---
 
-# How I Approach Systems
+## Principles
 
-```mermaid
-flowchart LR
-A[Observe system] --> B[Find constraint]
-B --> C[Map the gap]
-C --> D[Design control]
-D --> E[Automate solution]
-E --> F[Monitor outcome]
-F --> A
-```
-
-This loop applies whether the system is:
-
-- regulatory frameworks  
-- operational processes  
-- infrastructure platforms  
-- AI workflows  
-
-Understand the system.  
-Remove the constraint.  
-Let automation keep it stable.
-
----
-
-# Current Focus
-
-I’m currently building practical experience in:
-
-- Linux systems and tooling  
-- Docker and container infrastructure  
-- cloud deployment patterns  
-- monitoring and observability  
-- AI governance and multi-agent workflows  
-- self-hosted AI infrastructure (LLM routing, MCP, observability)  
-
-Most learning happens through **hands-on builds and homelab experimentation**.
-
----
-
-# Engineering Principles
-
-Systems usually fail at the constraint.
-
-When approaching a new system I typically start with:
-
-- What is the real constraint?  
-- What fails first under pressure?  
-- What control stabilises the system?  
-- What can be automated once the system is stable?  
-
-The goal is not complexity.
-
-The goal is **stable systems that continue working when nobody is watching**.
-
----
+- systems fail at the constraint
+- the goal isn't complexity — it's stability when nobody is watching
+- automate the boring stuff; monitor everything that matters
+- ship small, measure, iterate
 
 **Map the gap. Architect the control.**
-
