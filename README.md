@@ -13,6 +13,10 @@ https://www.linkedin.com/in/david-cockson
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white)
+![Tempo](https://img.shields.io/badge/Tempo-F46800?style=flat&logo=grafana&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 
 ---
@@ -52,6 +56,25 @@ https://davidcockson-compliance.github.io/sable-ai-governance-framework/
 https://davidcockson-compliance.github.io/pickles-gmbh-ai-governance-framework/
 
 These projects explore how governance frameworks can be **structured, generated and maintained using AI-assisted workflows**.
+
+---
+
+## AI Infrastructure
+
+### vault-runner
+
+Self-hosted LLM job runner that turns an **Obsidian vault into a distributed AI workbench**.
+
+Key capabilities:
+
+- file-based job queue driven from notes (`_queue → _active → _completed`)
+- multi-machine model routing across a VPS and home server
+- semantic memory via MemPalace MCP — past outputs retrievable with one YAML flag
+- OpenTelemetry traces to Tempo/Grafana, Discord alerts on failure
+- FastAPI + HTMX web UI with SSE streaming output
+
+Repository  
+https://github.com/davidcockson-compliance/vault-runner
 
 ---
 
@@ -123,6 +146,8 @@ Automation and deployment (Docker / Cloudflare)
 Cloud infrastructure experimentation
         ↓
 Monitoring and observability systems
+        ↓
+AI infrastructure and agent workflows
 ```
 
 Each step builds on the previous one.
@@ -167,6 +192,7 @@ I’m currently building practical experience in:
 - cloud deployment patterns  
 - monitoring and observability  
 - AI governance and multi-agent workflows  
+- self-hosted AI infrastructure (LLM routing, MCP, observability)  
 
 Most learning happens through **hands-on builds and homelab experimentation**.
 
