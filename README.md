@@ -45,7 +45,7 @@
 
 ### [ears-specs](https://github.com/davidcockson-compliance/EARS-SPECS) — VS Code extension
 
-[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/davidcockson.ears-specs?label=VS%20Marketplace&logo=visualstudiocode&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs)
+[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-v0.2.0-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs)
 [![Open VSX](https://img.shields.io/open-vsx/v/davidcockson/ears-specs?label=Open%20VSX&color=a60ee5)](https://open-vsx.org/extension/davidcockson/ears-specs)
 
 > A small editor extension for writing requirements in EARS — the *Easy Approach to Requirements Syntax*, a convention that keeps each requirement to one of five plain-English templates so it stays clear and testable. EARS is a common format for spec-driven development, including writing the specs that brief LLMs and AI coding tools.
