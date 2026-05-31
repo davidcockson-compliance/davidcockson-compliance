@@ -43,6 +43,19 @@
 
 ## 🛠️ Selected Projects
 
+### [ears-specs](https://github.com/davidcockson-compliance/EARS-SPECS) — VS Code extension
+
+[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/davidcockson.ears-specs?label=VS%20Marketplace&logo=visualstudiocode&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs)
+[![Open VSX](https://img.shields.io/open-vsx/v/davidcockson/ears-specs?label=Open%20VSX&color=a60ee5)](https://open-vsx.org/extension/davidcockson/ears-specs)
+
+> A small editor extension for writing requirements in EARS — the *Easy Approach to Requirements Syntax*, a convention that keeps each requirement to one of five plain-English templates so it stays clear and testable. EARS is a common format for spec-driven development, including writing the specs that brief LLMs and AI coding tools.
+
+Available on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs) and [Open VSX](https://open-vsx.org/extension/davidcockson/ears-specs) (so it also installs in Cursor and VSCodium). It works on any `.ears.md` file and:
+
+*   Colours the EARS keywords, `<placeholders>`, and `[DRAFT]`/`[STABLE]` markers as you write.
+*   Sorts each requirement into its EARS type — Ubiquitous, State-Driven, Event-Driven, Option-Driven, Unwanted — in a sidebar list, worked out from the opening keyword.
+*   Adds a command to re-organise a spec into tidy per-type sections, a scaffolder for new spec files, and Tab-completion snippets for each template.
+
 ### [vault-runner](https://github.com/davidcockson-compliance/vault-runner)
 > Self-hosted LLM job runner that turns an Obsidian vault into a distributed, deterministic AI workbench.
 
