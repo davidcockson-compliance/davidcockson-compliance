@@ -43,9 +43,31 @@
 
 ## 🛠️ Selected Projects
 
+### [control](https://davidcockson.com) — self-hosted LLM platform
+
+[![Live](https://img.shields.io/badge/case_study-davidcockson.com-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://davidcockson.com)
+
+> A private control surface for running LLM jobs against owned hardware, exposed safely to the public internet. Built solo in 10 days, spec → live.
+
+*   **12 Docker services** across two hosts plus cloud, **100% IaC** (Terraform + Ansible, S3-backed state), **518 pytest tests** at cutover.
+*   **Crash-safe filesystem job queue** — atomic `shutil.move` transitions (`_queue → _active → _completed`), no broker, no message loss; the worker re-queues stranded jobs on restart.
+*   End-to-end **SSE streaming** from FastAPI through the worker to a TypeScript React UI; **hybrid RAG** over Qdrant vectors plus a hand-rolled Neo4j knowledge graph.
+*   **Multi-machine Ollama routing** with explicit cloud fallback (Groq, Gemini, Anthropic) via FastMCP; **zero open inbound ports** (Cloudflare Tunnel + Tailscale, secrets resolved at runtime from Infisical); full OpenTelemetry → Grafana Cloud telemetry.
+
+### [EvalUI](https://evalui.davidcockson.com) — dual-backend LLM observability
+
+[![Live](https://img.shields.io/badge/live-evalui.davidcockson.com-blue?style=flat-square&logo=vercel&logoColor=white)](https://evalui.davidcockson.com)
+[![Repo](https://img.shields.io/badge/repo-evalui-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/davidcockson-compliance/evalui)
+
+> Side-by-side LLM observability across Langfuse and Arize Phoenix from one OpenTelemetry source of truth. Built solo in a single day.
+
+*   Next.js 16 dashboard on Vercel that fans a single OTel span stream out to both backends, normalises them into a shared four-stage blueprint, and races them side-by-side.
+*   Independent **Claude Haiku 4.5 judge** scoring Gemini 2.5 Flash on DeepEval Faithfulness, Contextual Precision, Answer Relevancy, and Hallucination.
+*   ISR + tag-based cache invalidation to stay inside Hobby-tier limits; a `<canvas>` latency replay driven by real span timings.
+
 ### [ears-specs](https://github.com/davidcockson-compliance/EARS-SPECS) — VS Code extension
 
-[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-v0.2.0-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs)
+[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-v0.2.2-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs)
 [![Open VSX](https://img.shields.io/open-vsx/v/davidcockson/ears-specs?label=Open%20VSX&color=a60ee5)](https://open-vsx.org/extension/davidcockson/ears-specs)
 
 > A small editor extension for writing requirements in EARS — the *Easy Approach to Requirements Syntax*, a convention that keeps each requirement to one of five plain-English templates so it stays clear and testable. EARS is a common format for spec-driven development, including writing the specs that brief LLMs and AI coding tools.
@@ -55,6 +77,28 @@ Available on the [VS Code Marketplace](https://marketplace.visualstudio.com/item
 *   Colours the EARS keywords, `<placeholders>`, and `[DRAFT]`/`[STABLE]` markers as you write.
 *   Sorts each requirement into its EARS type — Ubiquitous, State-Driven, Event-Driven, Option-Driven, Unwanted — in a sidebar list, worked out from the opening keyword.
 *   Adds a command to re-organise a spec into tidy per-type sections, a scaffolder for new spec files, and Tab-completion snippets for each template.
+
+### double-diamond — VS Code extension
+
+[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-v0.2.0-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=davidcockson.double-diamond)
+
+> Brings the four-phase Double Diamond design process into the editor — an idea state machine, a Kanban webview, and Obsidian library export — so discovery and definition happen where the work does. Published to the VS Code Marketplace.
+
+### Terminalz — terminal multiplexer for the AI-agent era
+
+> Desktop multiplexer for running multiple coding agents at once (Tauri 2 / Rust, xterm.js v6, portable-pty, TypeScript).
+
+*   Cover-flow layout that keeps every session live, so you can fan out work across several agents and glance between them.
+*   Process-type detection via `/proc` colour-codes Claude Code, Gemini CLI, and SSH panes at a glance. Built EARS-spec-first with dedicated QA passes.
+
+### [MapIt + MappitHills](https://davidcockson.com) — geospatial rendering
+
+[![Case study](https://img.shields.io/badge/case_study-davidcockson.com-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://davidcockson.com)
+
+> Two geospatial tools, each built in a day.
+
+*   **MapIt** — Python CLI + web app rendering OpenStreetMap data (Overpass API) as animated SVG/HTML across four aesthetic modes, including laser/G-code output; Overpass caching/retry, SSE progress streaming, result caching, Docker, 105 tests.
+*   **MappitHills** — GPX walking-route renderer over real 3D terrain (MapLibre-GL + Mapzen Terrarium tiles), gradient-coloured by ascent rate with a vertical-exaggeration slider; Flask backend, Docker.
 
 ### [vault-runner](https://github.com/davidcockson-compliance/vault-runner)
 > Self-hosted LLM job runner that turns an Obsidian vault into a distributed, deterministic AI workbench.
