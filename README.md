@@ -57,7 +57,7 @@
 ### [EvalUI](https://evalui.davidcockson.com) — dual-backend LLM observability
 
 [![Live](https://img.shields.io/badge/live-evalui.davidcockson.com-blue?style=flat-square&logo=vercel&logoColor=white)](https://evalui.davidcockson.com)
-[![Repo](https://img.shields.io/badge/repo-evalui-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/davidcockson-compliance/evalui)
+[![Repo](https://img.shields.io/badge/repo-evalui-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DavidCockson/evalui)
 
 > Side-by-side LLM observability across Langfuse and Arize Phoenix from one OpenTelemetry source of truth. Built solo in a single day.
 
@@ -65,7 +65,7 @@
 *   Independent **Claude Haiku 4.5 judge** scoring Gemini 2.5 Flash on DeepEval Faithfulness, Contextual Precision, Answer Relevancy, and Hallucination.
 *   ISR + tag-based cache invalidation to stay inside Hobby-tier limits; a `<canvas>` latency replay driven by real span timings.
 
-### [ears-specs](https://github.com/davidcockson-compliance/EARS-SPECS) — VS Code extension
+### [ears-specs](https://github.com/DavidCockson/EARS-SPECS) — VS Code extension
 
 [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-v0.2.2-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=davidcockson.ears-specs)
 [![Open VSX](https://img.shields.io/open-vsx/v/davidcockson/ears-specs?label=Open%20VSX&color=a60ee5)](https://open-vsx.org/extension/davidcockson/ears-specs)
@@ -100,7 +100,7 @@ Available on the [VS Code Marketplace](https://marketplace.visualstudio.com/item
 *   **MapIt** — Python CLI + web app rendering OpenStreetMap data (Overpass API) as animated SVG/HTML across four aesthetic modes, including laser/G-code output; Overpass caching/retry, SSE progress streaming, result caching, Docker, 105 tests.
 *   **MappitHills** — GPX walking-route renderer over real 3D terrain (MapLibre-GL + Mapzen Terrarium tiles), gradient-coloured by ascent rate with a vertical-exaggeration slider; Flask backend, Docker.
 
-### [vault-runner](https://github.com/davidcockson-compliance/vault-runner)
+### [vault-runner](https://github.com/DavidCockson/vault-runner)
 > Self-hosted LLM job runner that turns an Obsidian vault into a distributed, deterministic AI workbench.
 
 *   **File-Driven Pipeline:** Decentralized task queue (`_queue` → `_active` → `_completed`) managed entirely through markdown files.
@@ -112,25 +112,25 @@ Available on the [VS Code Marketplace](https://marketplace.visualstudio.com/item
 *   **Reactive UI:** Lightweight administrative interface built with FastAPI, HTMX, and Server-Sent Events (SSE) for live-streaming job states.
 *   **Quality Gates:** 87 automated unit/integration tests managed via parallelized GitLab CI and GitHub Actions pipelines with automated deployment on green merge.
 
-### [sable-ai-governance-framework](https://github.com/davidcockson-compliance/sable-ai-governance-framework)
+### [sable-ai-governance-framework](https://github.com/DavidCockson/sable-ai-governance-framework)
 > Operational risk and structural compliance architecture mapping AI system constraints to automated software guardrails.
 
 *   Translates high-level organizational policy directives, regulatory compliance rules, and algorithmic data requirements into auditable code controls.
 *   Codifies risk-mitigation vectors directly into target deployment configurations and LLM orchestration schemas.
 
-### [homelab-monitoring](https://github.com/davidcockson-compliance/homelab-monitoring)
+### [homelab-monitoring](https://github.com/DavidCockson/homelab-monitoring)
 > Declarative Prometheus and Grafana stack engineered for multi-node bare metal and virtualized infrastructure visibility.
 
 *   Aggregates system metrics, OS logs, and runtime traces across the homelab infrastructure cluster.
 *   Implements deep per-container resource tracking, performance profiling, and error anomaly detection using standard Docker metrics exporters.
 
-### [infra-practice](https://github.com/davidcockson-compliance/infra-practice)
+### [infra-practice](https://github.com/DavidCockson/infra-practice)
 > A modular blueprint repo showcasing cloud infrastructure patterns, secure network topography, and automated software delivery.
 
 *   Implements immutable infrastructure practices utilizing highly reusable, modular Terraform modules.
 *   Provisions structured cloud environments alongside automated, repeatable Python deployment pipelines and security baselines.
 
-### [pickles-gmbh-ai-governance-framework](https://github.com/davidcockson-compliance/pickles-gmbh-ai-governance-framework)
+### [pickles-gmbh-ai-governance-framework](https://github.com/DavidCockson/pickles-gmbh-ai-governance-framework)
 > Enterprise-scoped AI governance framework designed to enforce security constraints, policy alignment, and compliance tracking in automated system workflows.
 
 ---
